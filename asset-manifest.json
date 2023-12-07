@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/duality-of-man/static/css/main.be4225e9.css",
+    "main.js": "/duality-of-man/static/js/main.d773b48c.js",
+    "static/js/787.462e1e91.chunk.js": "/duality-of-man/static/js/787.462e1e91.chunk.js",
+    "static/media/bliss.jpeg": "/duality-of-man/static/media/bliss.df233cfbb4fab24db628.jpeg",
+    "static/media/ms_sans_serif.woff2": "/duality-of-man/static/media/ms_sans_serif.0348082abb503fb6a8c2.woff2",
+    "static/media/ms_sans_serif_bold.woff2": "/duality-of-man/static/media/ms_sans_serif_bold.7fcf57cc6e87ecddbf64.woff2",
+    "index.html": "/duality-of-man/index.html",
+    "main.be4225e9.css.map": "/duality-of-man/static/css/main.be4225e9.css.map",
+    "main.d773b48c.js.map": "/duality-of-man/static/js/main.d773b48c.js.map",
+    "787.462e1e91.chunk.js.map": "/duality-of-man/static/js/787.462e1e91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be4225e9.css",
+    "static/js/main.d773b48c.js"
+  ]
+}
