@@ -6,9 +6,9 @@ import StartQuiz from './routes/StartQuiz';
 import Quiz from './routes/Quiz';
 import { styleReset } from 'react95';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import { Tooltip } from 'react95';
-import { Hourglass } from 'react95';
-import { Button } from 'react95';
+// import { Tooltip } from 'react95';
+// import { Hourglass } from 'react95';
+// import { Button } from 'react95';
 
 /* Pick a theme of your choice */
 import original from 'react95/dist/themes/original';
@@ -42,17 +42,17 @@ function App() {
 
 		<div className="home-icons-container">
       <div className='home-icons'>
-        <img src="https://win98icons.alexmeub.com/icons/png/directory_open_file_mydocs-4.png"/>
+        <img src="https://win98icons.alexmeub.com/icons/png/directory_open_file_mydocs-4.png" alt="folder"/>
         <span>Secrets</span>
       </div>
 
       <div className='home-icons'>
-        <img src="https://win98icons.alexmeub.com/icons/png/computer-4.png"/>
+        <img src="https://win98icons.alexmeub.com/icons/png/computer-4.png" alt="computer"/>
         <span>My Computer</span>
       </div>
 
       <div className='home-icons'>
-        <img src="https://win98icons.alexmeub.com/icons/png/cd_drive-0.png"/>
+        <img src="https://win98icons.alexmeub.com/icons/png/cd_drive-0.png" alt="cd"/>
         <span>Adulting</span>
       </div>
 			

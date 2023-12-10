@@ -1,11 +1,11 @@
 import "../App.css"
 import React, { useState } from 'react';
 import {qBank} from "../QuestionBank";
-import { styleReset } from 'react95';
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import { Tooltip } from 'react95';
-import { Hourglass } from 'react95';
-import { Button } from 'react95';
+// import { styleReset } from 'react95';
+// import { createGlobalStyle, ThemeProvider } from 'styled-components';
+// import { Tooltip } from 'react95';
+// import { Hourglass } from 'react95';
+// import { Button } from 'react95';
 
 const Quiz = () => {
     const [activeQuestion, setActiveQuestion] = useState(0)
@@ -56,7 +56,7 @@ const Quiz = () => {
           <div className="windows-header">
                 <span className="windows-header-text">The Duality of Man</span>
                 <button class="header-button">
-                    <img src="https://win98icons.alexmeub.com/images/close-icon.png"/>
+                    <img src="https://win98icons.alexmeub.com/images/close-icon.png" alt="x"/>
                 </button>
           </div>
 
