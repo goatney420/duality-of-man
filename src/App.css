@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("//Users/sydneypresnell/Desktop/coding/duality-of-man/public/images/bliss.jpeg/sydneypresnell/Desktop/coding/duality-of-man/public/src/images/bliss.jpeg");
+  background-image: url("/Users/sydneypresnell/Desktop/coding/duality-of-man/public/images/bliss.jpeg");
   background-size: cover; /* Adjust as needed to cover the entire viewport */
   background-position: center; /* Adjust as needed to position the background */
   background-repeat: no-repeat;
