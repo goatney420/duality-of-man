@@ -91,6 +91,7 @@ body {
   outline: none;
   padding: 4px 8px;
   color: #090227;
+  text-decoration: none;
 }
 
 .window-container h2{
@@ -233,5 +234,4 @@ body {
 .footer {
   max-width: 200px;
   margin-top: 20px;
-  text-decoration: underline;
 }

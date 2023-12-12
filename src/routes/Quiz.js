@@ -1,11 +1,7 @@
 import "../App.css"
 import React, { useState } from 'react';
 import {qBank} from "../QuestionBank";
-// import { styleReset } from 'react95';
-// import { createGlobalStyle, ThemeProvider } from 'styled-components';
-// import { Tooltip } from 'react95';
-// import { Hourglass } from 'react95';
-// import { Button } from 'react95';
+import { Link } from "react-router-dom"; 
 
 const Quiz = () => {
     const [activeQuestion, setActiveQuestion] = useState(0)
@@ -84,12 +80,27 @@ const Quiz = () => {
                         ): (
                         <div>
                             <h2>Result</h2>
-                            <p>{result.score >= 4 ? 'Puka Shell' : 'Cross Necklace'}</p>
-
+                            {/* Syds logic here: 
+                            pure puka is score 4-6
+                            puka trying to be cross 3
+                            cross trying to be puka 2
+                            pure cross 0-1 */}
+                            <p>
+                            {result.score >= 4
+                              ? 'Puka Shell'
+                              : result.score === 3
+                              ? 'Puka Trying to be Cross'
+                              : result.score === 2
+                              ? 'Cross Trying to be Puka'
+                              : result.score <= 1
+                              ? 'Cross Necklace'
+                              : 'Default Value'}
+                            </p>
                             <div className="footer">
-                              <a href="https://www.tiktok.com/@bncmap/video/7271367686259526955">Inspo</a>
+                              <div className="link-container">
+                                <Link className="link-tag" to="/StartQuiz">Take Again</Link>
+                              </div>
                             </div>
-                            
                         </div>
                     )}
                 </div>

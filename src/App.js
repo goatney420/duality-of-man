@@ -42,18 +42,25 @@ function App() {
 
 		<div className="home-icons-container">
       <div className='home-icons'>
+        <a href='https://www.reddit.com/r/MathJokes/comments/92p4ad/life_is_a_supermartingale/'>
         <img src="https://win98icons.alexmeub.com/icons/png/directory_open_file_mydocs-4.png" alt="folder"/>
         <span>Secrets</span>
+        </a>
       </div>
 
       <div className='home-icons'>
+        <a href='https://www.youtube.com/watch?v=Lt1u6N7lueM'>
         <img src="https://win98icons.alexmeub.com/icons/png/computer-4.png" alt="computer"/>
         <span>My Computer</span>
+        </a>
       </div>
 
       <div className='home-icons'>
+        <a href='https://www.youtube.com/watch?v=L9VBpbnXhWk'>
         <img src="https://win98icons.alexmeub.com/icons/png/cd_drive-0.png" alt="cd"/>
         <span>Adulting</span>
+        </a>
+        
       </div>
 			
 		</div>

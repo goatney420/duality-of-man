@@ -34,5 +34,12 @@ export const qBank = [
         type: 'radio',
         correctAnswer: "Matthew McConaughey",
     },
+    {
+        id: 6,
+        question: "Did you have an angsty teen phase",
+        choices: ["Yes", "No"],
+        type: 'radio',
+        correctAnswer: "No",
+    },
     
 ]
