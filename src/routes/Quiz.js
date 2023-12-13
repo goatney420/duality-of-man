@@ -81,18 +81,18 @@ const Quiz = () => {
                         <div>
                             <h2>Result</h2>
                             {/* Syds logic here: 
-                            pure puka is score 4-6
-                            puka trying to be cross 3
-                            cross trying to be puka 2
-                            pure cross 0-1 */}
+                            pure puka is score 7-9
+                            puka trying to be cross 5-6
+                            cross trying to be puka 3-4
+                            pure cross 0-2 */}
                             <p>
-                            {result.score >= 4
+                            {result.score >= 7
                               ? 'Puka Shell'
-                              : result.score === 3
+                              : result.score >= 5 && result.score <= 6
                               ? 'Puka Trying to be Cross'
-                              : result.score === 2
+                              : result.score >= 3 && result.score <= 4
                               ? 'Cross Trying to be Puka'
-                              : result.score <= 1
+                              : result.score <= 2
                               ? 'Cross Necklace'
                               : 'Default Value'}
                             </p>

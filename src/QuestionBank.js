@@ -8,7 +8,7 @@ export const qBank = [
     },
     {
         id: 2,
-        question: "Do you own any Yeti products?",
+        question: "Do wear mostly black jeans?",
         choices: ["Yes", "No"],
         type: 'radio',
         correctAnswer: "No",
@@ -22,7 +22,7 @@ export const qBank = [
     },
     {
         id: 4,
-        question: "Do you drive a truck?",
+        question: "Would you own a truck?",
         choices: ["Yes", "No"],
         type: 'radio',
         correctAnswer: "No",
@@ -41,5 +41,25 @@ export const qBank = [
         type: 'radio',
         correctAnswer: "No",
     },
-    
+    {
+        id: 7,
+        question: "Team Edward or Team Jacob",
+        choices: ["Edward", "Jacob"],
+        type: 'radio',
+        correctAnswer: "Jacob",
+    },
+    {
+        id: 8,
+        question: "Do you have a baby face?",
+        choices: ["Yes", "No"],
+        type: 'radio',
+        correctAnswer: "Yes",
+    },
+    {
+        id: 9,
+        question: "Do you have a beard or scruff?",
+        choices: ["Yes", "No"],
+        type: 'radio',
+        correctAnswer: "No",
+    }
 ]
