@@ -57,9 +57,9 @@ export const qBank = [
     },
     {
         id: 9,
-        question: "Do you have a beard or scruff?",
+        question: "Are you extroverted",
         choices: ["Yes", "No"],
         type: 'radio',
-        correctAnswer: "No",
+        correctAnswer: "Yes",
     }
 ]
