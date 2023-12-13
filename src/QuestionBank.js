@@ -36,14 +36,14 @@ export const qBank = [
     },
     {
         id: 6,
-        question: "Did you have an angsty teen phase",
+        question: "Did you have an angsty teen phase?",
         choices: ["Yes", "No"],
         type: 'radio',
         correctAnswer: "No",
     },
     {
         id: 7,
-        question: "Team Edward or Team Jacob",
+        question: "Team Edward or Team Jacob?",
         choices: ["Edward", "Jacob"],
         type: 'radio',
         correctAnswer: "Jacob",
@@ -57,7 +57,7 @@ export const qBank = [
     },
     {
         id: 9,
-        question: "Are you extroverted",
+        question: "Are you extroverted?",
         choices: ["Yes", "No"],
         type: 'radio',
         correctAnswer: "Yes",
